@@ -12,8 +12,5 @@ struct SourcesModel: Codable {
 }
 
 struct Sources:  Codable {
-//    let id: String?
     let name: String?
-//    let language: String?
-//    let country: String?
 }
