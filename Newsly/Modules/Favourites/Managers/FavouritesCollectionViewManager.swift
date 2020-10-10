@@ -107,7 +107,7 @@ extension FavouritesCollectionViewManager: FavouritesCollectionViewManagerProtoc
 extension FavouritesCollectionViewManager: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        <#code#>
+        self.delegate?.cellClicked(article: articles?[indexPath.row])
     }
 }
 
