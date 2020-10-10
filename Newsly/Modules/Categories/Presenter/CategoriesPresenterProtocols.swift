@@ -16,7 +16,7 @@ protocol CategoriesPresenterProtocol: class {
 protocol CategoriesPresenterInput: class {
 }
 
-// 
+// TableViewManager to presenter
 protocol CategoriesTableViewManagerDelegate: class {
     func sourceSelected(at row: Int)
 }

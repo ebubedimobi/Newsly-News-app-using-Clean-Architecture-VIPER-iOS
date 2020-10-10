@@ -58,6 +58,7 @@ extension AppCoordinator {
     private func createTabBar() -> UITabBarController {
         let tabBar = UITabBarController()
         UITabBar.appearance().tintColor = UIColor.tintColor
+        
         //add more tabs here
         tabBar.viewControllers = [createDiscoverVC(), createSourcesVC(), createSearchVC(), createCategoriesVC(), createFavouritesVC()]
         return tabBar

@@ -5,7 +5,6 @@
 //  Created by Meitar Basson on 07/10/2020.
 //
 
-import Foundation
 import UIKit
 
 class SignUpPresenter {
@@ -26,7 +25,6 @@ extension SignUpPresenter: SignUpPresenterProtocol {
     func addPhotoTapped() {
         self.router?.routeToImagePicker(delegate: self)
     }
-    
     
     // MARK: Need to consider using data type from now on instead of UIImage (to prevent loading UIKit)
     func register(email: String?, password: String?, image: UIImage?, fullName: String?) {

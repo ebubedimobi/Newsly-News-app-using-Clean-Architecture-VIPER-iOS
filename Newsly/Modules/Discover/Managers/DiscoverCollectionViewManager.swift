@@ -23,9 +23,6 @@ protocol DiscoverCollectionViewManagerProtocol {
     func setupChats(articles: [Article])
 }
 
-
-
-
 class DiscoverCollectionViewManager: NSObject {
     weak var delegate: DiscoverCollectionViewManagerDelegate?
     weak var collectionView: UICollectionView?

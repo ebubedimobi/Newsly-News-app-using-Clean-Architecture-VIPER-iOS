@@ -18,7 +18,7 @@ class SignInPresenter {
 extension SignInPresenter: SignInPresenterProtocol {
     func signIn(email: String?, password: String?) {
         guard
-             let email = email,
+            let email = email,
             let password = password else { return }
         interactor?.signIn(email: email, password: password)
     }

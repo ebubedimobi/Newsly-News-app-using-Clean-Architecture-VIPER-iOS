@@ -22,8 +22,4 @@ protocol WebPagePresenterInput: class {
     func isArticleSaved(state: Bool)
 }
 
-//
-protocol WebPageInteractorDelegate: class {
-    func saveArticle()
-    
-}
+

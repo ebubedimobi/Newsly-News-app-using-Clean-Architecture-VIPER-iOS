@@ -104,7 +104,12 @@ extension FavouritesCollectionViewManager: FavouritesCollectionViewManagerProtoc
     
 }
 
-extension FavouritesCollectionViewManager: UICollectionViewDelegate { }
+extension FavouritesCollectionViewManager: UICollectionViewDelegate {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        <#code#>
+    }
+}
 
 extension FavouritesCollectionViewManager: UICollectionViewDataSource {
     func numberOfSections(in collectionView: UICollectionView) -> Int {

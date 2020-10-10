@@ -23,6 +23,14 @@ extension WebPagePresenter: WebPagePresenterProtocol {
         self.isArticleSaved()
     }
     
+    func saveArticle() {
+        interactor?.saveArticle(article: article)
+    }
+    
+    func isArticleSaved() {
+        interactor?.isArticleSaved(article: article)
+    }
+    
 }
 
 extension WebPagePresenter: WebPagePresenterInput {
@@ -35,12 +43,3 @@ extension WebPagePresenter: WebPagePresenterInput {
     }
 }
 
-extension WebPagePresenter: WebPageInteractorDelegate {
-    func saveArticle() {
-        interactor?.saveArticle(article: article)
-    }
-    
-    func isArticleSaved() {
-        interactor?.isArticleSaved(article: article)
-    }
-}

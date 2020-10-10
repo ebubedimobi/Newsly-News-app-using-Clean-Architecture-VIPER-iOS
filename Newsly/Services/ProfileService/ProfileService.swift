@@ -8,6 +8,7 @@
 import Foundation
 import Firebase
 
+//MARK: - Protocols
 
 protocol ProfileServiceProtocol: class {
     func signIn(email: String, password: String)
@@ -26,6 +27,8 @@ protocol SigninDelegate: class {
 protocol SignUpDelegate: class {
     func presentAlert(title: String, message: String, action: ActionAlertModel?)
 }
+
+//MARK: - class Instance
 
 class ProfileService: ProfileServiceProtocol {
     
@@ -47,7 +50,7 @@ class ProfileService: ProfileServiceProtocol {
             if let error = error {
                 self?.loginDelegate?.presentAlert(title: "error", message: error.localizedDescription, action: ActionAlertModel(actionText: "Cancel", actionHandler: {}))
             }
-          
+            
             guard result != nil else {
                 self?.loginDelegate?.presentAlert(title: "error", message: "Couldn't complete sign in", action: ActionAlertModel(actionText: "Cancel", actionHandler: {}))
                 return
@@ -73,8 +76,8 @@ class ProfileService: ProfileServiceProtocol {
             
             let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
             changeRequest?.displayName = fullName
+            
             changeRequest?.commitChanges {  (error) in
-                
                 DataBaseService.shared.createNewDataBase()
                 
             }

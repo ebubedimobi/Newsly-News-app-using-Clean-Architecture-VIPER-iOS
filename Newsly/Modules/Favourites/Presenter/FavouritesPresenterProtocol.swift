@@ -9,6 +9,7 @@
 
 import UIKit
 
+//view to presenter
 protocol FavouritesPresenterProtocol: class {
     var collectionManager: FavouritesCollectionViewManagerProtocol? { get set }
     func signOut()
@@ -26,6 +27,7 @@ protocol FavouritesSearchBarManagerDelegate: class {
     func queryArticles(name: String)
 }
 
+//collectionViewManager to presenter
 protocol FavouritesCollectionViewManagerDelegate: class {
     func cellClicked(article: Article?)
     func addPhotoTapped()

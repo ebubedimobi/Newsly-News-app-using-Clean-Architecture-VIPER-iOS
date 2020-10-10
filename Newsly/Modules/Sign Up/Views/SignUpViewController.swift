@@ -200,7 +200,6 @@ class SignUpViewController: BaseViewController {
         stackView.distribution = .equalSpacing
         stackView.spacing = appearance.stacksSpacing
         stackView.axis = .vertical
-//        stackView.clipsToBounds = true
         return stackView
     }()
     

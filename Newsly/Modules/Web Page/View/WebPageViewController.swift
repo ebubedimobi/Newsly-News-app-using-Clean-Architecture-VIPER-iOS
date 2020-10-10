@@ -9,12 +9,6 @@ import UIKit
 import WebKit
 import SnapKit
 
-// MARK: Move to WebPageViewInput file
-
-protocol WebPageViewProtocol {
-
-}
-
 class WebPageViewController: BaseViewController {
     
     var presenter: WebPagePresenterProtocol?

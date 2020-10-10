@@ -7,6 +7,7 @@
 
 import UIKit
 
+//presenter to interactor
 protocol FavouritesInteractorInput {
     func searchByName(by name: String, articles: [Article]) -> [Article]
     func loadFavouriteArticles(completion: @escaping ([Article]?) -> ())
