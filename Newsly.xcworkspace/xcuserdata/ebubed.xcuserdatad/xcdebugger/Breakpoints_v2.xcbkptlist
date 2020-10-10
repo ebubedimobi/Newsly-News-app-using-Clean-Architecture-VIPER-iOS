@@ -332,8 +332,8 @@
             filePath = "Newsly/Modules/Sign Up/Views/SignUpViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "262"
-            endingLineNumber = "262"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
             landmarkName = "SignUpViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -652,8 +652,8 @@
             filePath = "Newsly/Modules/Sign Up/Views/SignUpViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "265"
-            endingLineNumber = "265"
+            startingLineNumber = "268"
+            endingLineNumber = "268"
             landmarkName = "profileImageTapped()"
             landmarkType = "7">
          </BreakpointContent>
@@ -816,6 +816,70 @@
             endingLineNumber = "96"
             landmarkName = "setUpUI()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "93218D28-B40A-4D72-8C99-1C7322B20C1D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Newsly/Modules/Sources/Managers/SourcesTableViewManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "setUpCells(sources:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0999DF58-F33C-43D7-A8BE-A17B59460130"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Newsly/Services/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "networkRequest(from:modelType:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0999DF58-F33C-43D7-A8BE-A17B59460130 - ea25a3108a5417f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Newsly.NetworkService.networkRequest&lt;A where A1: Swift.Decodable, A1: Swift.Encodable&gt;(from: A, modelType: A1.Type, completion: (Swift.Result&lt;A1, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Newsly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ebubed/My%20Documents/Newsly-News-app-using-Clean-Architecture-VIPER-iOS/Newsly/Services/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1360">
+               </Location>
+               <Location
+                  uuid = "0999DF58-F33C-43D7-A8BE-A17B59460130 - aa2a60fbe70ca5a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Newsly.NetworkService.networkRequest&lt;A where A1: Swift.Decodable, A1: Swift.Encodable&gt;(from: A, modelType: A1.Type, completion: (Swift.Result&lt;A1, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Newsly"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ebubed/My%20Documents/Newsly-News-app-using-Clean-Architecture-VIPER-iOS/Newsly/Services/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

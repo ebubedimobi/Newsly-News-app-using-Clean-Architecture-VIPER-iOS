@@ -107,6 +107,7 @@ class SignUpViewController: BaseViewController {
         nameTF.snp.makeConstraints { (make) in
             make.height.equalTo(appearance.textfieldHeight)
         }
+        nameTF.textColor = .black
         nameTF.delegate = self
         nameTF.isUserInteractionEnabled = true
         return nameTF
@@ -120,6 +121,7 @@ class SignUpViewController: BaseViewController {
         emailTF.snp.makeConstraints { (make) in
             make.height.equalTo(appearance.textfieldHeight)
         }
+        emailTF.textColor = .black
         emailTF.delegate = self
         emailTF.isUserInteractionEnabled = true
         emailTF.autocapitalizationType = .none
@@ -134,6 +136,7 @@ class SignUpViewController: BaseViewController {
         pwTF.snp.makeConstraints { (make) in
             make.height.equalTo(appearance.textfieldHeight)
         }
+        pwTF.textColor = .black
         pwTF.delegate = self
         pwTF.isSecureTextEntry = true
         pwTF.autocapitalizationType = .none

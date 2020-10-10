@@ -69,6 +69,7 @@ class LoginViewController: BaseViewController {
         emailTF.snp.makeConstraints { (make) in
             make.height.equalTo(appearance.textfieldHeight)
         }
+        emailTF.textColor = .black
         
         emailTF.isUserInteractionEnabled = true
         emailTF.autocapitalizationType = .none
@@ -91,6 +92,7 @@ class LoginViewController: BaseViewController {
         pwTF.snp.makeConstraints { (make) in
             make.height.equalTo(appearance.textfieldHeight)
         }
+        pwTF.textColor = .black
         
         pwTF.isSecureTextEntry = true
         pwTF.autocapitalizationType = .none
