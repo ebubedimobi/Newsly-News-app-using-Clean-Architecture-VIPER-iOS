@@ -17,10 +17,13 @@ Newsly app is a news app where you get the latest news, as well as news by categ
 
 1. [Get your News API key](https://newsapi.org)
 
-2. Insert your API key into a Constants.swift file and inject it into the project as a struct example
-            struct Secrets {
-                static let APIKey = "YOUR_API_KEY"
-             }
+2. Insert your API key into a Constants.swift file and inject it into the project as a struct as shown below
+
+``` swift     
+struct Secrets {
+    static let APIKey = "YOUR_API_KEY"
+}
+```
 
 3. [Get your google.plist file](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjz1-3U16rsAhVE3dUKHXjzD8YYABAAGgJ3cw&ohost=www.google.com&cid=CAESQOD2p4915hCOcLEoSbb3g8Pul5Ed_OrMHAdIzOvSF4d-QNrb_9gousJb398STrH-JqFm4_K2fd2hIM07otFwCsM&sig=AOD64_1owLXQ__dQ4hr-W1rkFRiILT5z-A&q&adurl&ved=2ahUKEwivpuPU16rsAhWFzoUKHV2dAfAQ0Qx6BAggEAE)
 
