@@ -37,7 +37,7 @@ enum ArticleEndpoint: EndPointProtocol {
         case let .getArticlesFromCategory(category):
             return self.absoluteURL + "Country=" + self.region + "&Category=" + category + "&ApiKey=" + self.APIKey
         case .getSources:
-            return self.absoluteURL + "language=" + self.locale + "&Country=" + self.locale + "&ApiKey=" + self.APIKey
+            return self.absoluteURL + "language=" + self.locale + "&Country=" + "US" + "&ApiKey=" + self.APIKey
         case let .getArticlesFromSource(source):
             return self.absoluteURL + "sources=" + source + "&language=" + self.locale + "&ApiKey=" + self.APIKey
         case let .searchForArticles(filter):
